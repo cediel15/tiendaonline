@@ -1,0 +1,81 @@
+body
+{
+	font-family: arial;
+	background: rgb(200,200,200);
+	margin: 0px; padding: 0px;
+}
+
+#contenedor
+{
+	width: 800px;margin: auto;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.8);
+	background: white;padding: 15px;
+}
+
+#contenedor h1
+{
+	color: black;
+}
+
+#contenedor a:link
+{
+	text-decoration: none;
+}
+
+#menu ul
+{
+	list-style-type: none;
+	display: block;
+	width: 60px;
+}
+
+#menu li
+{
+	display: inline;
+	padding-left: 13%;
+	text-decoration: underline;
+	background: black;
+	color: white;
+}
+
+.titulo
+{
+	color: black;
+	border-style: solid;
+	margin-top: 1%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.titulo a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+.titulo a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+.titulo a:visited
+{
+	color: black;
+	text-decoration: underline;
+}
+
+#contienecarrito
+{
+	position: absolute;
+	margin-left: 470px;
+	top: 10px;
+	clear: both;
+	width: 300px;
+	float: radius:5px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.3) inset;
+	background: rgb(200,200,200);
+}
